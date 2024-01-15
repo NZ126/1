@@ -154,23 +154,6 @@
       "searchable": 1,
       "changeable": 1
     },
-    {
-      "key": "異界",
-      "name": "異界",
-      "type": 3,
-      "api": "csp_Ysj",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "push_agent",
-      "name": "推送",
-      "type": 3,
-      "api": "csp_Push",
-      "searchable": 0,
-      "changeable": 0,
-      "timeout": 60
-    }
   ],
   "doh": [
     {
