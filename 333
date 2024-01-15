@@ -123,39 +123,6 @@
       "changeable": 1
     },
     {
-      "key": "WebDAV",
-      "name": "WebDAV",
-      "type": 3,
-      "api": "csp_WebDAV",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": "https://fm.t4tv.hz.cz/json/webdav.json"
-    },
-    {
-      "key": "JustLive",
-      "name": "JustLive",
-      "type": 3,
-      "api": "csp_JustLive",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "七夜",
-      "name": "七夜",
-      "type": 3,
-      "api": "csp_Dovx",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "易搜",
-      "name": "易搜",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
       "key": "雲搜",
       "name": "雲搜",
       "type": 3,
