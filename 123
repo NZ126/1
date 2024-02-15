@@ -103,6 +103,15 @@
       "changeable": 1
     },
     {
+      "key": "一起看 ",
+      "name": "一起看",
+      "type": 3,
+      "api": "csp_YQKan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "push_agent",
       "name": "推送",
       "type": 3,
