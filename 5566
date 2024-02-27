@@ -18,6 +18,7 @@
       "searchable": 1,
       "changeable": 1
     },
+    },
     {
       "key": "賤賤",
       "name": "賤賤",
@@ -104,6 +105,14 @@
       "changeable": 1
     },
     {
+      "key": "索尼",
+      "name": "索尼 ",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
       "key": "快帆",
       "name": "快帆",
       "type": 1,
@@ -126,6 +135,14 @@
       "api": "http://cj.ffzyapi.com/api.php/provide/vod",
       "searchable": 1,
       "changeable": 1
+    },
+    {
+      "key": "本地",
+      "name": "本地",
+      "type": 3,
+      "api": "csp_Local",
+      "searchable": 0,
+      "changeable": 0
     },
     {
       "key": "AList",
