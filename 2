@@ -2,42 +2,45 @@
   "spider": "https://mirror.ghproxy.com/https://github.com/FongMi/CatVodSpider/raw/main/jar/custom_spider.jar;md5;a81ee775ab56884c4f5cb932cbc2d1af",
   "wallpaper": "https://xhdwc.tk/api/img.php",
   "sites": [
+ {
+   "key": "PTT",
+   "name": "ptt",
+   "type": 3,
+   "api": "csp_PTT",
+   "jar": "./jar/custom_spider.jar",
+   "searchable": 1,
+   "changeable": 1
+},
+   "key": "360筛选",
+   "name": "360筛选",
+   "type": 1,
+   "api": "http://zhangqun66.serv00.net/158.php",
+   "searchable": 1,
+   "changeable": 1,
+   "categories": [
+   "电影",
+   "连续剧",
+   "综艺",
+   "国产动漫",
+   "欧美动漫",
+   "日韩动漫",
+   "体育",
+    ]
+  },
   {
-            "key": "360筛选",
-            "name": "360筛选",
-            "type": 1,
-            "api": "http://zhangqun66.serv00.net/158.php",
-            "searchable": 1,
-            "changeable": 1,
-            "categories": [
-                "电影",
-                "连续剧",
-                "综艺",
-                "国产动漫",
-                "欧美动漫",
-                "日韩动漫",
-                "体育",
-                "NBA",
-                "爽文短剧",
-                "年代穿越",
-                "成长逆袭"
-            ]
-        },
-  {
-            "key": "热播",
-            "name": "热播之家┃影视",
-            "type": 3,
-            "changeable": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "api": "csp_XBPQ",
-            "ext": {
-                "线路数组": "data-toggle=\"tab\"&&</a>[排序:高清线路②]",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-                "分类url": "https://rebozj.pro/show/{cateId}-{area}--{class}-----{catePg}---{year}.html"
-            }
-  ,
+    "key": "热播",
+    "name": "热播之家┃影视",
+    "type": 3,
+     "changeable": 1,
+     "searchable": 1,
+     "quickSearch": 1,
+     "filterable": 1,
+     "api": "csp_XBPQ",
+     "ext": {
+     "线路数组": "data-toggle=\"tab\"&&</a>[排序:高清线路②]",
+     "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+     "分类url": "https://rebozj.pro/show/{cateId}-{area}--{class}-----{catePg}---{year}.html"
+   },
   {
       "key": "nu",
       "name": "Nuu|XBPQ",
