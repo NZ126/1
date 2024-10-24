@@ -531,21 +531,7 @@
       "searchable": 0,
       "changeable": 0,
       "timeout": 60
-    },
-        {
-            "key": "BiliBili",
-            "name": "哔哩哔哩",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": {
-                "type": "沙雕动画#沙雕穿越#沙雕",
-                "cookie": ""
-            }
-        }
+    }
     ],
     "lives": [
         {
