@@ -149,5 +149,4 @@
                 "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
             ]
         }
-    ]
 }
